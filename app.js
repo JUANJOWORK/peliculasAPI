@@ -30,7 +30,6 @@ const cargarpeliculas = async () => {
                 <div class="pelicula">
                 <img class="poster" src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
                 <h3 class="titulo">${pelicula.title}</h3>
-                <h4 class="titulo">${pelicula.genre_ids}</h4>
 
                 </div>
                 `
